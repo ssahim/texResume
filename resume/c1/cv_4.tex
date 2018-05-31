@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{graphicx}
+
+\name{Sayed Ahmad Sahim} % Your name
+\address{Triftstrasse 67A \\ Berlin, Germany 13353} % Your address
+% \address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+49)~$\cdot$~152~$\cdot$~14874335\\ \href{mailto:sayedahmad.sahim@gmail.com}{sayedahmad.sahim@gmail.com}}
+ % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+% {\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
+% B.S. in Computer Science \& Engineering \\
+% Minor in Linguistics \smallskip \\
+% Member of Eta Kappa Nu \\
+% Member of Upsilon Pi Epsilon \\
+% Overall GPA: 5.678
+
+
+{\bf Technische Universität Berlin, Germany} \hfill {\em October 2018} \\ 
+MCS. in Computer Science \smallskip \\
+Overall GPA: Still studying
+
+% {\bf Udacity, Online} \hfill {\em August 2018} \\ 
+% Full Stack Web Developer Nanodegree Program \\
+% Overall GPA: Still Studying
+
+{\bf Herat University, Herat, Afghanistan} \hfill {\em December 2015} \\ 
+BCS. in Computer Science
+Information and communication systems \\
+Member of Kandahar University \\
+Overall GPA: 1.3
+
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{ZiiK,TU}{August  - March 2018}{Software developing internship}{Berlin, DE}
+\item Design a web application to find the nearest available doctor.
+\item Allow patients find specialists related to their sickness type.
+\item Allow patients to see the appointments with the doctor and book an appointment.
+\item The following technologies are used: 
+\item Java Spring Boot framework along with JPA and Hibernate persistent API in the back-end.
+\item Bootstrap and JavaScript in the front-end.
+\item Gradle as a build system
+\item git with gitlab as a software version control system.
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{CIT, TU}{November 2017 - March 2018}{Cloud Application Architect}{Berlin, DE}
+\item We were assigned to deploy server images in the cloud.
+\item Our responsibility was to design a topology for the cloud services and deploy them accordingly.
+\item We used dockerized images for the deployment. 
+\item Heat  template was used to  host  services  running  in  Docker  containers managed  by  Docker  Swarm. 
+\item We configured all the services with load balancing and fault tolerance.
+\item To perform all the above tasks we used EC2 Amazon cloud and OpenStack APIs.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{DIMA,TU}{April  - August 2017}{Software  Developer}{Berlin, DE}
+\item Implement a federated layer for heterogeneous information systems.
+\item The heterogeneous system contained three main components (Public Transport, Cinema, and restaurant)
+\item We implemented the public transport component responsible for finding the shortest and nearest possible transport.
+\item We used Java programing language along with maven and git tools
+\item We used the Mapzen and OpenStreetMap APIs to calculate the shortest path between two points and find the available transports between the source and destination.
+\end{rSubsection}
+
+
+
+
+
+%------------------------------------------------
+\begin{rSubsection}{ZiiK,TU}{April  - August 2017}{NoSQL database internship}{Berlin, DE}
+\item My job was to design a restful API based on NoSQL database.
+\item We used Ebay-kleinanzeigen used cars data set.
+\item Python programing language and Bottle framework was used in the back-end.
+\item MangoDB was used to store the dataset.
+\item It was an API we didn't need to work on the front end but for the purpose of data visualization I used bootstrap and JavaScript.
+\item Finally the application was deployed and tested in a docker container
+\end{rSubsection}
+
+%------------------------------------------------
+
+
+\begin{rSubsection}{Kandahar University}{January - March 2015}{Software Developer}{Kandahar, AFG}
+\item Implement the university information system.
+\item My task was to work on the student registration component.
+\item The component was also responsible for printing student ID cards
+\item At the back end we had PHP programing language with MySQL database
+\item At the front end we had HTML,CSS and JavaScript
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Kandahar University}{March 2015 - April 2016}{Lecturer}{Kandahar, AFG}
+\item Responsible for teaching Java programing language courses from basics to advance. The content of the course included basic programming for beginners, Object-Oriented programming, Java Swing GUI programming, threads and advanced exception handling in Java. Generic programming, sequential and associative data structures, classic data structures, sorting and searching, exception handling, database programming with JDBC, networking programming GUI development using Swing and an overview of Multithreading. The course also explores Java Applets, web applications (Servlets), advanced input and output classes, more advanced strings, regular expressions, Java graphics, and finally, closing off with a look at using Eclipse and IntelliJ Idea IDE.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Herat University}{February 2011 - December 2014}{System Administrator}{Herat, AFG}
+\item I worked in a group of four people for the system administration in the network operation center NOC. I was responsible for the installation and maintenance of Linux servers. The Linux servers were hosting squid proxy traffic shaping for the entire university. We were responsible for configuring the above services. Filter the contents of the Internet, provide a fixed data quota for each user. For the user management, we were using Samba and LDAP directory. We also configured Samba as a primary domain controller. Finally, we were responsible to regularly backup the server, in case of disaster we were able to have zero downtime.
+
+\end{rSubsection}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Java, PHP, JavaScript, Python, HTML, CSS \\
+Protocols \& APIs & JSON, REST \\
+Databases & MySQL, MangoDB,  \\
+Tools & SVN, Vim, Nano, Github, Gitlab
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
